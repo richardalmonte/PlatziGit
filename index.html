@@ -15,15 +15,25 @@
             max-width: 100%;
             vertical-align: top;
         }
+
+        img#responsive {
+            display: none;
+        }
+
+        @media screen and (max-width:768px) {
+            img#responsive {
+                display: block;
+            }
+        }
     </style>
 </head>
 
 <body>
-    <img src="images/header.jpg" alt="Welcome to Invie" srcset="">
+    <img src="images/invie-responsive.png" alt="Welcome to Invie" id="responsive">
+    <img src="images/header.jpg" alt="">
     <img src="images/hero.jpg" alt="">
     <img src="images/acustica.jpg" alt="" srcset="">
-    <img src="images/clasica.jpg" alt="" srcset="">
-    <img src="images/footer.jpg" alt="" srcset="">
+
 </body>
 
 </html>
