@@ -10,6 +10,7 @@
 *.sln.docstates
 
 setting.py
+# Test Changing gitignore from Web
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
